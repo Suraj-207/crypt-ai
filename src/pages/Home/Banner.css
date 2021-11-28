@@ -1,0 +1,38 @@
+.banner {
+  margin-top: 7rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner img {
+  margin-top: 5rem;
+  transition-timing-function: ease-in;
+}
+
+.banner_content{
+  margin-top: 5rem;
+  margin-left: 6rem;
+  border-radius: 28px;
+  padding: 0 3rem 3rem 3rem;
+  max-height: 300px;
+  animation-name: fade-in;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+.banner_content h1 {
+  color: var(--secondary);
+  font-size: 2.5em;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  /* animation: slidein 0.5s; */
+}
+
+.banner_content p {
+  color: var(--secondary);
+  font-size: 2.3em;
+  font-weight: 400;
+  /* animation: slidein 0.5s; */
+}

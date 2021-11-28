@@ -1,0 +1,50 @@
+.details {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  margin-bottom: 2rem;
+}
+
+.container h1{
+  color: var(--secondary);
+  font-size: 3.5em;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.container .extend{
+  visibility: hidden;
+}
+
+.container .extend_animated{
+  border-bottom: 2px solid var(--primary);
+  visibility: visible;
+  /* border: 0;
+  width: 0; */
+  animation: separator-width 2s ease-out forwards;
+}
+
+.ball {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ball_extend{
+  animation: away 2s forwards;
+}
+.ball img {
+  display: flex;
+  justify-content: space-evenly;
+  object-fit: contain;
+  max-width: 250px;
+}
+

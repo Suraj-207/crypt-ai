@@ -1,0 +1,35 @@
+.footer{
+    background: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10rem;
+    border-top: 1px solid var(--secondary);
+}
+
+.footer_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer_description{
+    color: var(--secondary);
+}
+
+.footer .company h1{
+    color: var(--secondary);
+}
+
+.footer_down p{
+    color: var(--secondary);
+    float: right;
+}
+
+.footer_down hr{
+    height: 2px;
+    border-top: 0;
+    border-left: 0px;
+    border-right: 0px;
+    opacity: 0.5;
+}
